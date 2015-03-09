@@ -15,3 +15,19 @@
 ```bash
   $ sudo pip install jpush
 ```
+4.[simplejosn](https://github.com/simplejson/simplejson):
+```bash
+  $ sudo pip install simplejosn
+```
+5.[django-phonenumber-field](https://github.com/stefanfoulis/django-phonenumber-field)
+```bash
+  $ sudo pip install django-phonenumber-field
+```
+#Api:
+views: /bugView.py /moduleView.py /projectView.py /teamView.py /userView.py /versionView.py
+
+#Run
+```bash
+  $ python manage.py runserver 8080 
+```
+      
