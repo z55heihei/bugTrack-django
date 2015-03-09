@@ -3,10 +3,13 @@
 
 #Vendors:
 1.djgangorestframework:
+
   $ sudo pip install [djangorestframework](http://www.django-rest-framework.org/)
   
 2.django_admin_bootstrapped:
+
   $ sudo pip install [django_admin_bootstrapped](https://github.com/django-admin-bootstrapped/django-admin-bootstrapped)
 
 3.jpush:
+
   $ sudo pip install [jpush](https://github.com/jpush/jpush-api-python-client)
