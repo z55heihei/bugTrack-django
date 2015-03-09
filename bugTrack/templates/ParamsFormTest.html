@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<!--注册表单-->
+<p>1.注册：</p>
+<form action="/register/" method="get">
+账号: <input name="username" value=""/></br>
+邮箱: <input name="email" value=""/></br>
+密码: <input name="password" value=""/></br>
+<input type="submit" value="注册">
+</form>
+
+
+<!--登录表单-->
+<p>2.登录：</p>
+<form action="/login/" method="get">
+账号: <input name="username" value=""/></br>
+密码: <input name="password" value=""/></br>
+<input type="submit" value="登录">
+</form>
+
+
+<!--bug提交表单-->
+<p>3.bug提交：</p>
+<form action="/bugSend/" method="get">
+发布人: <input name="name" value=""/></br>
+bug 详情: <input name="content" value=""/></br>
+版本: <input name="version" value=""/></br>
+时间: <input name="date" value=""/></br>
+完成  <input type="checkbox" name="finish" value="">
+<input type="submit" value="提交">
+</form>
+
+
+
+<!--修改用户密码-->
+<p>4.修改用户密码：</p>
+<form action="/modifyUser/" method="get">
+    账号: <input name="oriusername" value=""/></br>
+    密码: <input name="oripassword" value=""/></br>
+    邮箱: <input name="oriemail" value=""/></br>
+    新账号: <input name="newusername" value=""/></br>
+    新密码: <input name="newpassword" value=""/></br>
+    新邮箱: <input name="newemail" value=""/></br>
+<input type="submit" value="修改">
+</form>
+
+<!--删除bug处理bug-->
+<p>4.删除bug：</p>
+<form action="/bugDel/" method="get">
+    bugId: <input name="bugId" value=""/></br>
+<input type="submit" value="提交">
+</form>
+
+</body>
+</html>
