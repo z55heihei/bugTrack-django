@@ -4,23 +4,23 @@
 #Vendors:
 1.[djangorestframework](http://www.django-rest-framework.org/):
 ```bash
-   $ sudo pip install djangorestframework
+$ sudo pip install djangorestframework
 ```
 2.[django_admin_bootstrapped](https://github.com/django-admin-bootstrapped/django-admin-bootstrapped):
 ```bash
-  $ sudo pip install django_admin_bootstrapped
+$ sudo pip install django_admin_bootstrapped
 ```
 3.[jpush](https://github.com/jpush/jpush-api-python-client):
 ```bash
-  $ sudo pip install jpush
+$ sudo pip install jpush
 ```
 4.[simplejosn](https://github.com/simplejson/simplejson):
 ```bash
-  $ sudo pip install simplejosn
+$ sudo pip install simplejosn
 ```
 5.[django-phonenumber-field](https://github.com/stefanfoulis/django-phonenumber-field)
 ```bash
-  $ sudo pip install django-phonenumber-field
+$ sudo pip install django-phonenumber-field
 ```
 #Api:
 ```bash
@@ -29,6 +29,6 @@ views: /bugView.py /moduleView.py /projectView.py /teamView.py /userView.py /ver
 
 #Run:
 ```bash
-  $ python manage.py runserver 8080 
+$ python manage.py runserver 8080 
 ```
       
