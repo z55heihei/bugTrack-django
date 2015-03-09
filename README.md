@@ -2,7 +2,6 @@
 **bugTrack基于django框架bug管理系统，创建发布bug，编辑bug状态，通知修复，项目版本管理等功能等。**
 
 #Vendors:
-
 1.[djangorestframework](http://www.django-rest-framework.org/):
 ```bash
    $ sudo pip install djangorestframework
@@ -28,7 +27,7 @@
 views: /bugView.py /moduleView.py /projectView.py /teamView.py /userView.py /versionView.py
 ```
 
-#Run
+#Run:
 ```bash
   $ python manage.py runserver 8080 
 ```
