@@ -24,7 +24,9 @@
   $ sudo pip install django-phonenumber-field
 ```
 #Api:
+```bash
 views: /bugView.py /moduleView.py /projectView.py /teamView.py /userView.py /versionView.py
+```
 
 #Run
 ```bash
